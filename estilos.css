@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+header {
+    background-color: rgba(255, 255, 255, 0.753);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    margin: 10px
+}
+
+
+img {
+    width: 250px;
+}
+
+h1 {
+    background-color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: "Playwrite ID", cursive;
+    font-size: 20px;
+    color: rgb(87, 77, 77);
+}
+
+h2 {
+    font-family: "Quicksand", sans-serif;
+    ;
+}
+
+.titulopagina {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+
+}
+
+.Presentación {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Sedan SC", serif;
+    background-color: #C9C746;
+    margin: 20px;
+    padding: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px;
+    background-color: #DCDB70;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.caja {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sedan SC", serif;
+}
+
+.caja img {
+    border-radius: 40%;
+    margin: 10px;
+}
+
+p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+
+}
+
+.caja p {
+    font-size: 14px;
+    font-family: "Quicksand", sans-serif;
+}
+
+#Nosotros {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCDB70;
+    font-family: "Sedan SC", serif;
+    margin: 10px;
+}
+
+#Blog {
+    background-color: #DCDB70;
+    justify-content: center;
+    align-items: center;
+    margin: 20px
+}
+.carrusel{ 
+    margin:20px;
+    padding: 20px;
+}
+
+.carousel-inner{
+    width: 200px;
+    height: 100px;
+}
